@@ -1,0 +1,11 @@
+{% load static %}
+
+<html>
+    <head>
+        <link rel="stylesheet" href={% static 'css/mystyle.css' %}>
+    </head>
+    <body>
+        <p>Hello {{ name }}, It is currently {{ current_time }}</p>
+        <p> THe number was {{ number }} </p>
+    </body>
+</html>
