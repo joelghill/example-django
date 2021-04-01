@@ -31,4 +31,6 @@ class FirstNameForm(forms.Form):
 
 
     def clean(self):
+        """ THis cleans stuff
+        """
         return self.cleaned_data
